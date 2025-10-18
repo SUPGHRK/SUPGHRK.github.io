@@ -1,0 +1,58 @@
+const MEMBERS = [
+  {
+    studentId: "6818102010",
+    fullName: "นายณัฐพล ดาวเรือง",
+    major: "DCM",
+    section: "5",
+    img: "pic/arm.png",
+  },
+  {
+    studentId: "6818102019",
+    fullName: "นายนนท์ทิวา พึ่งเดช",
+    major: "DCM",
+    section: "5",
+    img: "pic/vin.png",
+  },
+  {
+    studentId: "6818102020",
+    fullName: "นายนัฐพล วงศ์คำ",
+    major: "DCM",
+    section: "5",
+    img: "pic/nam.png",
+  },
+  {
+    studentId: "6818102028",
+    fullName: "นายปิยภูมิ ซิม",
+    major: "DCM",
+    section: "5",
+    img: "pic/qwe2.png",
+  },
+  {
+    studentId: "6818102032",
+    fullName: "นายพสุธร วัฒนดำรงธรรม",
+    major: "DCM",
+    section: "5",
+    img: "pic/pasu.png",
+  },
+  {
+    studentId: "6818102040",
+    fullName: "นางสาวมยุรี -",
+    major: "DCM",
+    section: "5",
+    img: "pic/son.png",
+  },
+  {
+    studentId: "6818102050",
+    fullName: "นางสาวสาริศา คชกฤษ",
+    major: "DCM",
+    section: "5",
+    img: "https://api.dicebear.com/7.x/adventurer/png?size=256&seed=Sarisa-Kochakrit",
+  },
+  {
+    studentId: "6818102074",
+    fullName: "นายบุรินทร์ พร้อมสุข",
+    major: "CMT",
+    section: "5",
+    img: "pic/burin2real.png",
+  },
+];
