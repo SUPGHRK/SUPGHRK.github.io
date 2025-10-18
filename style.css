@@ -117,3 +117,32 @@ h2 {
     margin-top: 10px;
   }
 }
+
+/* ============ Member Grid ============ */
+#memberGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* ✅ แถวละ 4 */
+  gap: 2rem;
+  justify-items: center;
+  align-items: start;
+  padding: 1rem;
+}
+
+/* Responsive ปรับอัตโนมัติ */
+@media (max-width: 1024px) {
+  #memberGrid {
+    grid-template-columns: repeat(3, 1fr); /* Tablet: แถวละ 3 */
+  }
+}
+
+@media (max-width: 768px) {
+  #memberGrid {
+    grid-template-columns: repeat(2, 1fr); /* มือถือแนวนอน: แถวละ 2 */
+  }
+}
+
+@media (max-width: 480px) {
+  #memberGrid {
+    grid-template-columns: repeat(1, 1fr); /* มือถือแนวตั้ง: แถวละ 1 */
+  }
+}
